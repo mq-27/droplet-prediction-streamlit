@@ -1,0 +1,8 @@
+streamlit
+copy
+numpy
+sklearn
+pandas
+joblib
+shap
+matplotlib
