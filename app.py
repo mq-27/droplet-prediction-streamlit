@@ -215,7 +215,6 @@ def predict_page():
                             )
         
         fig = shap.plots.waterfall(shap_values_xgb[0])
-        st.set_option('deprecation.showPyplotGlobalUse', False)
         st.pyplot(fig, dpi=600)
 
 
