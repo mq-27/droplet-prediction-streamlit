@@ -46,7 +46,7 @@ pickleshare
 pillow 
 pkgutil_resolve_name 
 prompt_toolkit 
-protobuf 
+protobuf==3.20.0 
 pure_eval 
 pyarrow==19.0.1
 pycparser 
