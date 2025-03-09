@@ -87,8 +87,6 @@ wcwidth==0.2.13
 wheel==0.45.1
 win_inet_pton==1.1.0
 xgboost==1.7.6
-xorg-libxau==1.0.12
-xorg-libxdmcp==1.1.5
 zipp==3.21.0
 zstandard==0.19.0
 
