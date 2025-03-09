@@ -61,7 +61,7 @@ PyYAML
 referencing 
 requests 
 rpds-py 
-scikit-learn 
+scikit-learn==1.2.2 
 scipy 
 shap 
 shiboken6==6.8.2
