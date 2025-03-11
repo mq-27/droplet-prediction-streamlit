@@ -213,8 +213,8 @@ def predict_page():
         shap_values_xgb = ex_xgb(format_data_df
                             ,check_additivity=False
                             )
-        fig, ax = plt.subplots(dpi=600)  # 创建一个具有高DPI的图形对象
-        shap.plots.waterfall(shap_values_xgb[0], show=False, ax=ax)
+
+        fig = shap.plots.waterfall(shap_values_xgb[0])
         st.pyplot(fig)
 
 
