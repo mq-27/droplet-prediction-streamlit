@@ -213,10 +213,10 @@ def predict_page():
         shap_values_xgb = ex_xgb(format_data_df
                             ,check_additivity=False
                             )
-
-        fig = shap.plots.waterfall(shap_values_xgb[0])
+        plt.figure(dpi=600) 
+        shap.plots.waterfall(shap_values_xgb[0], show=False) 
+        fig = plt.gcf()  
         st.pyplot(fig)
-
 
 
 
